@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Rhino-Etl</id>
+    <version>1.2.5.0</version>
+    <authors>Ayende Rahien, Nathan Palmer</authors>
+    <owners>Ayende Rahien, Nathan Palmer</owners>
+    <licenseUrl>https://github.com/hibernating-rhinos/rhino-etl/blob/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/hibernating-rhinos/rhino-etl</projectUrl>
+    <iconUrl>https://raw.github.com/wiki/hibernating-rhinos/rhino-esb/images/rhino-icon.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Rhino Etl is a developer friendly Extract, transform and load (ETL) library for .NET</description>
+    <language>en-GB</language>
+    <dependencies>
+      <dependency id="Boo" version="0.9.4" />
+      <dependency id="RhinoDSL" version="1.0.0" />
+      <dependency id="Common.Logging" version="3.0.0" />
+      <dependency id="FileHelpers" version="2.0.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Rhino.Etl.Core\bin\Release\Rhino.Etl.Core.dll" target="lib\net40" />
+    <file src="Rhino.Etl.Core\bin\Release\Rhino.Etl.Core.pdb" target="lib\net40" />
+    <file src="Rhino.Etl.Core\bin\Release\Rhino.Etl.Dsl.dll" target="lib\net40" />
+    <file src="Rhino.Etl.Core\bin\Release\Rhino.Etl.Dsl.pdb" target="lib\net40" />
+  </files>  
+</package>
