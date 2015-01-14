@@ -21,7 +21,7 @@
   <files>
     <file src="Rhino.Etl.Core\bin\Release\Rhino.Etl.Core.dll" target="lib\net40" />
     <file src="Rhino.Etl.Core\bin\Release\Rhino.Etl.Core.pdb" target="lib\net40" />
-    <file src="Rhino.Etl.Dls\bin\Release\Rhino.Etl.Dsl.dll" target="lib\net40" />
-    <file src="Rhino.Etl.Dls\bin\Release\Rhino.Etl.Dsl.pdb" target="lib\net40" />
+    <file src="Rhino.Etl.Dsl\bin\Release\Rhino.Etl.Dsl.dll" target="lib\net40" />
+    <file src="Rhino.Etl.Dsl\bin\Release\Rhino.Etl.Dsl.pdb" target="lib\net40" />
   </files>  
 </package>
